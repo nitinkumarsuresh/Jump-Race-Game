@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./gamebg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    position: relative;
+    overflow: hidden;
+}
+#ground{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(1, 23, 43, 0.597);
+    position: absolute;
+    bottom: 0;
+}
+#character{
+    width: 50px;
+    height:50px;
+    background-color: rgb(205, 110, 181);
+    bottom: 100px;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 10px;
+
+
+}
+.obstacle {
+    width: 30px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 100px;
+    right:0
+}
+h2{
+    font-family: sans-serif;
+    font-size:x-large;
+    color: rgb(250, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+#score{
+    color: rgb(255, 66, 103);
+}
+#nitin{
+    align-items:flex-end;
+    justify-content: center;
+    margin-top:-30px;
+    margin-left: 1100px;
+    margin-right: 0px;
+    color:thistle;
+   
+}
+#title{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+h2 span {
+    color: rgb(255, 0, 111);
+}
+h1 span {
+    color:greenyellow;
+}
